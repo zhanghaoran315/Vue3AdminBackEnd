@@ -1,0 +1,34 @@
+[
+  {
+    "amount": "sale",
+    "title": "商品总销量",
+    "subtitle": "商品总销量",
+    "tips": "所有商品的总销量",
+    "number1": 510173,
+    "number2": 510173
+  },
+  {
+    "amount": "favor",
+    "title": "商品总收藏",
+    "subtitle": "商品总收藏",
+    "tips": "所有商品的总收藏",
+    "number1": 87606,
+    "number2": 87606
+  },
+  {
+    "amount": "inventory",
+    "title": "商品总库存",
+    "subtitle": "商品总库存",
+    "tips": "所有商品的总库存",
+    "number1": 867271,
+    "number2": 867271
+  },
+  {
+    "amount": "saleroom",
+    "title": "商品总销售额",
+    "subtitle": "商品总销售额",
+    "tips": "所有商品的总销售额",
+    "number1": 43130820,
+    "number2": 43130820
+  }
+]

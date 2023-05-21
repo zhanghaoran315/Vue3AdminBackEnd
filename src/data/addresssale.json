@@ -1,0 +1,786 @@
+[
+  {
+    "address": "上海",
+    "count": 785
+  },
+  {
+    "address": "南京",
+    "count": 636
+  },
+  {
+    "address": "郑州",
+    "count": 2674
+  },
+  {
+    "address": "广州",
+    "count": 2980
+  },
+  {
+    "address": "西安",
+    "count": 1149
+  },
+  {
+    "address": "长沙",
+    "count": 1716
+  },
+  {
+    "address": "海门",
+    "count": 1986
+  },
+  {
+    "address": "鄂尔多斯",
+    "count": 1625
+  },
+  {
+    "address": "招远",
+    "count": 2571
+  },
+  {
+    "address": "舟山",
+    "count": 1093
+  },
+  {
+    "address": "齐齐哈尔",
+    "count": 2835
+  },
+  {
+    "address": "盐城",
+    "count": 2018
+  },
+  {
+    "address": "赤峰",
+    "count": 2618
+  },
+  {
+    "address": "青岛",
+    "count": 1031
+  },
+  {
+    "address": "乳山",
+    "count": 1018
+  },
+  {
+    "address": "金昌",
+    "count": 2032
+  },
+  {
+    "address": "泉州",
+    "count": 1972
+  },
+  {
+    "address": "莱西",
+    "count": 1974
+  },
+  {
+    "address": "日照",
+    "count": 989
+  },
+  {
+    "address": "胶南",
+    "count": 2775
+  },
+  {
+    "address": "南通",
+    "count": 2405
+  },
+  {
+    "address": "拉萨",
+    "count": 2983
+  },
+  {
+    "address": "云浮",
+    "count": 1395
+  },
+  {
+    "address": "梅州",
+    "count": 975
+  },
+  {
+    "address": "文登",
+    "count": 675
+  },
+  {
+    "address": "上海",
+    "count": 1815
+  },
+  {
+    "address": "攀枝花",
+    "count": 2506
+  },
+  {
+    "address": "威海",
+    "count": 1307
+  },
+  {
+    "address": "承德",
+    "count": 2843
+  },
+  {
+    "address": "厦门",
+    "count": 2715
+  },
+  {
+    "address": "汕尾",
+    "count": 603
+  },
+  {
+    "address": "潮州",
+    "count": 2998
+  },
+  {
+    "address": "丹东",
+    "count": 1594
+  },
+  {
+    "address": "太仓",
+    "count": 2422
+  },
+  {
+    "address": "曲靖",
+    "count": 848
+  },
+  {
+    "address": "烟台",
+    "count": 2502
+  },
+  {
+    "address": "福州",
+    "count": 1543
+  },
+  {
+    "address": "瓦房店",
+    "count": 981
+  },
+  {
+    "address": "即墨",
+    "count": 520
+  },
+  {
+    "address": "抚顺",
+    "count": 898
+  },
+  {
+    "address": "玉溪",
+    "count": 2522
+  },
+  {
+    "address": "张家口",
+    "count": 1563
+  },
+  {
+    "address": "阳泉",
+    "count": 2554
+  },
+  {
+    "address": "莱州",
+    "count": 2827
+  },
+  {
+    "address": "湖州",
+    "count": 1083
+  },
+  {
+    "address": "汕头",
+    "count": 2048
+  },
+  {
+    "address": "昆山",
+    "count": 1266
+  },
+  {
+    "address": "宁波",
+    "count": 1795
+  },
+  {
+    "address": "湛江",
+    "count": 1952
+  },
+  {
+    "address": "揭阳",
+    "count": 792
+  },
+  {
+    "address": "荣成",
+    "count": 2955
+  },
+  {
+    "address": "连云港",
+    "count": 775
+  },
+  {
+    "address": "葫芦岛",
+    "count": 2379
+  },
+  {
+    "address": "常熟",
+    "count": 1356
+  },
+  {
+    "address": "东莞",
+    "count": 1000
+  },
+  {
+    "address": "河源",
+    "count": 738
+  },
+  {
+    "address": "淮安",
+    "count": 856
+  },
+  {
+    "address": "泰州",
+    "count": 1382
+  },
+  {
+    "address": "南宁",
+    "count": 859
+  },
+  {
+    "address": "营口",
+    "count": 706
+  },
+  {
+    "address": "惠州",
+    "count": 1025
+  },
+  {
+    "address": "江阴",
+    "count": 1057
+  },
+  {
+    "address": "蓬莱",
+    "count": 2331
+  },
+  {
+    "address": "韶关",
+    "count": 1017
+  },
+  {
+    "address": "嘉峪关",
+    "count": 776
+  },
+  {
+    "address": "广州",
+    "count": 2411
+  },
+  {
+    "address": "延安",
+    "count": 1992
+  },
+  {
+    "address": "太原",
+    "count": 1238
+  },
+  {
+    "address": "清远",
+    "count": 2368
+  },
+  {
+    "address": "中山",
+    "count": 2925
+  },
+  {
+    "address": "昆明",
+    "count": 1056
+  },
+  {
+    "address": "寿光",
+    "count": 631
+  },
+  {
+    "address": "盘锦",
+    "count": 2425
+  },
+  {
+    "address": "长治",
+    "count": 2198
+  },
+  {
+    "address": "深圳",
+    "count": 1630
+  },
+  {
+    "address": "珠海",
+    "count": 1325
+  },
+  {
+    "address": "宿迁",
+    "count": 2169
+  },
+  {
+    "address": "咸阳",
+    "count": 2683
+  },
+  {
+    "address": "铜川",
+    "count": 2625
+  },
+  {
+    "address": "平度",
+    "count": 2413
+  },
+  {
+    "address": "佛山",
+    "count": 807
+  },
+  {
+    "address": "海口",
+    "count": 1044
+  },
+  {
+    "address": "江门",
+    "count": 2595
+  },
+  {
+    "address": "章丘",
+    "count": 835
+  },
+  {
+    "address": "肇庆",
+    "count": 2722
+  },
+  {
+    "address": "大连",
+    "count": 1002
+  },
+  {
+    "address": "临汾",
+    "count": 1141
+  },
+  {
+    "address": "吴江",
+    "count": 1065
+  },
+  {
+    "address": "石嘴山",
+    "count": 893
+  },
+  {
+    "address": "沈阳",
+    "count": 2576
+  },
+  {
+    "address": "苏州",
+    "count": 2623
+  },
+  {
+    "address": "茂名",
+    "count": 1152
+  },
+  {
+    "address": "嘉兴",
+    "count": 1384
+  },
+  {
+    "address": "长春",
+    "count": 1753
+  },
+  {
+    "address": "胶州",
+    "count": 2141
+  },
+  {
+    "address": "银川",
+    "count": 1366
+  },
+  {
+    "address": "张家港",
+    "count": 1286
+  },
+  {
+    "address": "三门峡",
+    "count": 614
+  },
+  {
+    "address": "锦州",
+    "count": 1380
+  },
+  {
+    "address": "南昌",
+    "count": 2406
+  },
+  {
+    "address": "柳州",
+    "count": 2467
+  },
+  {
+    "address": "三亚",
+    "count": 2900
+  },
+  {
+    "address": "自贡",
+    "count": 1459
+  },
+  {
+    "address": "吉林",
+    "count": 2231
+  },
+  {
+    "address": "阳江",
+    "count": 2822
+  },
+  {
+    "address": "泸州",
+    "count": 2447
+  },
+  {
+    "address": "西宁",
+    "count": 2093
+  },
+  {
+    "address": "宜宾",
+    "count": 2799
+  },
+  {
+    "address": "呼和浩特",
+    "count": 2773
+  },
+  {
+    "address": "成都",
+    "count": 2449
+  },
+  {
+    "address": "大同",
+    "count": 1462
+  },
+  {
+    "address": "镇江",
+    "count": 1230
+  },
+  {
+    "address": "桂林",
+    "count": 997
+  },
+  {
+    "address": "张家界",
+    "count": 2952
+  },
+  {
+    "address": "宜兴",
+    "count": 2392
+  },
+  {
+    "address": "北海",
+    "count": 702
+  },
+  {
+    "address": "西安",
+    "count": 2854
+  },
+  {
+    "address": "金坛",
+    "count": 2635
+  },
+  {
+    "address": "东营",
+    "count": 1606
+  },
+  {
+    "address": "牡丹江",
+    "count": 2485
+  },
+  {
+    "address": "遵义",
+    "count": 1894
+  },
+  {
+    "address": "绍兴",
+    "count": 1606
+  },
+  {
+    "address": "扬州",
+    "count": 811
+  },
+  {
+    "address": "常州",
+    "count": 2704
+  },
+  {
+    "address": "潍坊",
+    "count": 879
+  },
+  {
+    "address": "重庆",
+    "count": 2007
+  },
+  {
+    "address": "台州",
+    "count": 1213
+  },
+  {
+    "address": "南京",
+    "count": 2361
+  },
+  {
+    "address": "滨州",
+    "count": 1989
+  },
+  {
+    "address": "贵阳",
+    "count": 2736
+  },
+  {
+    "address": "无锡",
+    "count": 2897
+  },
+  {
+    "address": "本溪",
+    "count": 1459
+  },
+  {
+    "address": "克拉玛依",
+    "count": 2438
+  },
+  {
+    "address": "渭南",
+    "count": 634
+  },
+  {
+    "address": "马鞍山",
+    "count": 1808
+  },
+  {
+    "address": "宝鸡",
+    "count": 1990
+  },
+  {
+    "address": "焦作",
+    "count": 2622
+  },
+  {
+    "address": "句容",
+    "count": 2436
+  },
+  {
+    "address": "北京",
+    "count": 2127
+  },
+  {
+    "address": "徐州",
+    "count": 1930
+  },
+  {
+    "address": "衡水",
+    "count": 881
+  },
+  {
+    "address": "包头",
+    "count": 2943
+  },
+  {
+    "address": "绵阳",
+    "count": 2900
+  },
+  {
+    "address": "乌鲁木齐",
+    "count": 2258
+  },
+  {
+    "address": "枣庄",
+    "count": 2311
+  },
+  {
+    "address": "杭州",
+    "count": 1619
+  },
+  {
+    "address": "淄博",
+    "count": 2463
+  },
+  {
+    "address": "鞍山",
+    "count": 1343
+  },
+  {
+    "address": "溧阳",
+    "count": 1528
+  },
+  {
+    "address": "库尔勒",
+    "count": 1819
+  },
+  {
+    "address": "安阳",
+    "count": 1062
+  },
+  {
+    "address": "开封",
+    "count": 1717
+  },
+  {
+    "address": "济南",
+    "count": 885
+  },
+  {
+    "address": "德阳",
+    "count": 1874
+  },
+  {
+    "address": "温州",
+    "count": 2624
+  },
+  {
+    "address": "九江",
+    "count": 2944
+  },
+  {
+    "address": "邯郸",
+    "count": 2674
+  },
+  {
+    "address": "临安",
+    "count": 780
+  },
+  {
+    "address": "兰州",
+    "count": 2000
+  },
+  {
+    "address": "沧州",
+    "count": 1890
+  },
+  {
+    "address": "临沂",
+    "count": 1528
+  },
+  {
+    "address": "南充",
+    "count": 1765
+  },
+  {
+    "address": "天津",
+    "count": 1453
+  },
+  {
+    "address": "富阳",
+    "count": 1128
+  },
+  {
+    "address": "泰安",
+    "count": 2311
+  },
+  {
+    "address": "诸暨",
+    "count": 881
+  },
+  {
+    "address": "郑州",
+    "count": 923
+  },
+  {
+    "address": "哈尔滨",
+    "count": 2961
+  },
+  {
+    "address": "聊城",
+    "count": 2912
+  },
+  {
+    "address": "芜湖",
+    "count": 1279
+  },
+  {
+    "address": "唐山",
+    "count": 2452
+  },
+  {
+    "address": "平顶山",
+    "count": 1784
+  },
+  {
+    "address": "邢台",
+    "count": 1826
+  },
+  {
+    "address": "德州",
+    "count": 2022
+  },
+  {
+    "address": "济宁",
+    "count": 677
+  },
+  {
+    "address": "荆州",
+    "count": 1258
+  },
+  {
+    "address": "宜昌",
+    "count": 1834
+  },
+  {
+    "address": "义乌",
+    "count": 611
+  },
+  {
+    "address": "丽水",
+    "count": 1898
+  },
+  {
+    "address": "洛阳",
+    "count": 2039
+  },
+  {
+    "address": "秦皇岛",
+    "count": 1452
+  },
+  {
+    "address": "株洲",
+    "count": 2106
+  },
+  {
+    "address": "石家庄",
+    "count": 2155
+  },
+  {
+    "address": "莱芜",
+    "count": 722
+  },
+  {
+    "address": "常德",
+    "count": 2310
+  },
+  {
+    "address": "保定",
+    "count": 2198
+  },
+  {
+    "address": "湘潭",
+    "count": 2613
+  },
+  {
+    "address": "金华",
+    "count": 924
+  },
+  {
+    "address": "岳阳",
+    "count": 2082
+  },
+  {
+    "address": "长沙",
+    "count": 1218
+  },
+  {
+    "address": "衢州",
+    "count": 1130
+  },
+  {
+    "address": "廊坊",
+    "count": 1206
+  },
+  {
+    "address": "菏泽",
+    "count": 1088
+  },
+  {
+    "address": "合肥",
+    "count": 1879
+  },
+  {
+    "address": "武汉",
+    "count": 2944
+  },
+  {
+    "address": "大庆",
+    "count": 1070
+  }
+]

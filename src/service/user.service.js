@@ -31,7 +31,8 @@ class UserService {
   async detail(userId) {
     const statement = `
       SELECT 
-        u.id id, u.name name, u.realName realName, u.cellphone cellphone, u.status status, u.createAt createAt, u.updateAt updateAt,
+        u.id id, u.name name, u.realName realName, u.cellphone cellphone, 
+        u.status status, u.createAt createAt, u.updateAt updateAt, u.avatar_url avatarUrl,
         JSON_OBJECT('id', r.id, 'name', r.name, 'intro', r.intro, 'createAt', r.createAt, 'updateAt', r.updateAt) role,
         JSON_OBJECT('id', d.id, 'name', d.name, 'parentId', d.parentId, 'createAt', d.createAt, 'updateAt', d.updateAt) department
       FROM user u 

@@ -1,5 +1,9 @@
 const momentService = require('../service/moment.service')
 const toolService = require('../service/tool.service')
+const fileService = require('../service/file.service')
+const { PICTURE_PATH } = require('../constants/file-path')
+const fs = require('fs')
+
 
 class MomentController {
   async create(ctx, next) {
@@ -99,6 +103,22 @@ class MomentController {
       code: 200,
       message: '添加标签成功~'
     }
+  }
+
+  async pictureInfo(ctx, next) {
+    const { filename } = ctx.params
+
+    const results = await fileService.getPictureByFilename(filename)
+
+    if (!results) {
+      return ctx.body = {
+        code: 400,
+        message: '资源不存在~'
+      }
+    }
+
+    ctx.response.set('content-type', results.mimetype)
+    ctx.body = fs.createReadStream(`${PICTURE_PATH}/${filename}`)
   }
 }
 

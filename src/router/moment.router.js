@@ -5,7 +5,7 @@ momentRouter.prefix('/moment')
 const { verifyAuth } = require('../middleware/login.middleware')
 const { verifyPermssion } = require('../middleware/tool.middleware')
 const { verifyLabelExists } = require('../middleware/label.middleware')
-const { create, list, detail, update, remove, addLabels } = require('../controller/moment.controller')
+const { create, list, detail, update, remove, addLabels, pictureInfo } = require('../controller/moment.controller')
 
 // 1.发表动态
 momentRouter.post('/', verifyAuth, create)
@@ -26,6 +26,9 @@ momentRouter.delete('/:momentId', verifyAuth, verifyPermssion, remove)
 // 2.用户具备权限（只能给自己的动态添加）
 // 3.添加标签的处理，没有这个标签
 momentRouter.post('/:momentId/labels', verifyAuth, verifyPermssion, verifyLabelExists, addLabels)
+
+// 6.动态配图服务
+momentRouter.get('/images/:filename', pictureInfo)
 
 
 module.exports = momentRouter

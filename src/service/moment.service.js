@@ -1,4 +1,5 @@
 const connections = require('../app/database')
+const { APP_PORT, APP_HOST } = require('../app/config')
 
 class MomentService {
   async create(moment) {
@@ -16,7 +17,11 @@ class MomentService {
         m.id id, m.title title, m.content content, m.createAt createAt, m.updateAt updateAt,
         JSON_OBJECT('id', u.id, 'name', u.name, 'avatarUrl', u.avatar_url) author,
         (SELECT COUNT(*) FROM comment c WHERE c.moment_id = m.id) commentCount,
-        (SELECT COUNT(*) FROM moment_label ml WHERE ml.moment_id = m.id) labelCount
+        (SELECT COUNT(*) FROM moment_label ml WHERE ml.moment_id = m.id) labelCount,
+        (
+					SELECT JSON_ARRAYAGG(CONCAT('${APP_HOST}:${APP_PORT}/moment/images/',p.filename)) 
+					FROM picture p WHERE m.id = p.moment_id
+				) images
       FROM moment m LEFT JOIN user u ON m.user_id = u.id
         ORDER BY m.updateAt DESC  
         LIMIT ?, ?;
@@ -43,7 +48,7 @@ class MomentService {
     //   GROUP BY m.id;
     const statement = `
       SELECT 
-        m.id id, m.content content, m.createAt createAt, m.updateAt updateAt,
+        m.id id, m.title title, m.content content, m.createAt createAt, m.updateAt updateAt,
         JSON_OBJECT('id', u.id, 'name', u.name) author,
         (
           SELECT 
@@ -60,7 +65,11 @@ class MomentService {
                 'user', JSON_OBJECT('id', cu.id, 'name', cu.name))), 
             NULL
             )
-        ) comments
+        ) comments,
+        (
+					SELECT JSON_ARRAYAGG(CONCAT('${APP_HOST}:${APP_PORT}',p.filename)) 
+					FROM picture p WHERE m.id = p.moment_id
+				) images
       FROM moment m 
         LEFT JOIN user u ON m.user_id = u.id
         LEFT JOIN comment c ON m.id = c.moment_id

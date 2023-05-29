@@ -7,7 +7,7 @@ const categoryfavor = require('../data/categoryfavor.json')
 const saletop5 = require('../data/saletop5.json')
 const addresssale = require('../data/addresssale.json')
 
-// const { getRandomNumberByRange } = require('../utils/commom')
+// const { getRandomNumberByRange } = require('../utils/common')
 
 const goodsRouter = new Router({ prefix: '/goods' })
 

@@ -1,7 +1,4 @@
 const connections = require("../app/database")
-const menuService = require('./menu.service')
-const goodsData = require('../data/goods.json')
-
 class FileService {
   async saveAvatarInfo(avatar) {
     // 编写SQL语句
@@ -25,58 +22,20 @@ class FileService {
     return results.pop()
   }
 
-  async assignMenu(roleId, menuIds) {
-    // 1.先删除之前的关系
-    const deleteStatement = `DELETE FROM role_menu WHERE roleId = ?;`
-    await connections.query(deleteStatement, [roleId])
+  async savePictureInfo(filename, mimetype, size, momentId, userId) {
+    const statement = `INSERT INTO picture (filename, mimetype, size, moment_id, user_id) VALUES (?, ?, ?, ?, ?);`
 
-    // 2.插入新的值
-    const insertStatement = `INSERT INTO role_menu (roleId, menuId) VALUES (?, ?)`
-    for (const menuId of menuIds) {
-      await connections.query(insertStatement, [roleId, menuId])
-    }
+    const result = await connections.execute(statement, [filename, mimetype, size, momentId, userId])
+
+    return result[0]
   }
 
-  async getRoleMenu(roleId) {
+  async getPictureByFilename(filename) {
+    const statement = `SELECT * FROM picture WHERE filename = ?;`
 
-    try {
-      // 1.根据roleId获取所有的menuId
-      const getMenuIdsStatement = `
-    SELECT 
-      rm.roleId, JSON_ARRAYAGG(rm.menuId) menuIds 
-    FROM role_menu rm 
-    WHERE rm.roleId = ? 
-    GROUP BY rm.roleId; 
-  `
-      const [roleMenuIds] = await connections.query(getMenuIdsStatement, [roleId])
-      const menuIds = roleMenuIds[0] ? roleMenuIds[0].menuIds : []
+    const [results] = await connections.execute(statement, [filename])
 
-
-      console.log('22222222222222');
-
-      // 2.获取完整的菜单数据
-      const wholeMenu = await menuService.wholeMenu()
-
-      // 3.从完整的菜单树中, 过滤到menuIds
-      function filterMenu(menu) {
-        const newMenu = []
-        for (const item of menu) {
-          if (item.children) {
-            item.children = filterMenu(item.children)
-          }
-          if (menuIds.includes(item.id)) {
-            newMenu.push(item)
-          }
-        }
-        return newMenu
-      }
-      const finalMenu = filterMenu(wholeMenu)
-
-      return finalMenu
-    } catch (error) {
-      console.log(error);
-    }
-
+    return results[0]
   }
 }
 
